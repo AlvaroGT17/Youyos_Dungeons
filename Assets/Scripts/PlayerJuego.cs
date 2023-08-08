@@ -144,7 +144,7 @@ public class PlayerJuego : MonoBehaviour
         {
             estadoActual = Estado.Jump;
         }
-        else if (velocidadY < 0 && !controlSuelo.estaEnSuelo && !controlPared.estaEnPared)
+        else if (velocidadY < 0 && !controlSuelo.estaEnSuelo && !controlPared.estaEnPared && !escalando)
         {
             estadoActual = Estado.Caida;
         }
@@ -182,7 +182,7 @@ public class PlayerJuego : MonoBehaviour
             {
                 estadoActual = Estado.EscaleraEstatico;
             }
-            else
+            else if (inputY < 0 && controlEscaleras.estaEnEscalera)
             {
                 estadoActual = Estado.EscaleraDescender;
             }
@@ -245,7 +245,6 @@ public class PlayerJuego : MonoBehaviour
 
     private void DeslizarseEnPared()
     {
-        Debug.Log("Esta deslizandose");
         estadoActual = Estado.DeslizandoPared;
         animator.SetFloat("EstadoActual", (int)estadoActual);
 
