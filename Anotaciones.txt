@@ -1,0 +1,38 @@
+MAPEO DEL MANDO DE XBOX
+	
+	Botón A: KeyCode.Joystick1Button0
+    Botón B: KeyCode.Joystick1Button1
+    Botón X: KeyCode.Joystick1Button2
+    Botón Y: KeyCode.Joystick1Button3
+    Gatillo Izquierdo: KeyCode.Joystick1Button4
+    Gatillo Derecho: KeyCode.Joystick1Button5
+    Botón de Menú/Start: KeyCode.Joystick1Button7
+    Botón de Vista/Select: KeyCode.Joystick1Button6
+    Stick Izquierdo (presionado): KeyCode.Joystick1Button8
+    Stick Derecho (presionado): KeyCode.Joystick1Button9
+    D-pad Arriba: KeyCode.Joystick1Button13
+    D-pad Abajo: KeyCode.Joystick1Button14
+    D-pad Izquierda: KeyCode.Joystick1Button11
+    D-pad Derecha: KeyCode.Joystick1Button12
+	
+	
+ENUM
+
+	Idle => 0
+	Run => 1
+	Jump => 2
+	Caida => 3
+	DeslizarseSuelo => 4
+	DeslizarseAire => 5
+	DeslizarsePared => 6
+	DispararIdle => 7
+	DispararCorriendo => 8
+	DispararSaltando => 9
+	EscaleraAscender => 10
+	EscaleraEstatico => 11
+	EscaleraDescender => 12
+	EscaleraDispara => 13
+	
+PARA HACER LA TRANSICION
+
+	animator.SetInteger("Situacion", (int)estadoActual); // hace las transiciones.

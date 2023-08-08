@@ -1,0 +1,2824 @@
+fileFormatVersion: 2
+guid: 638737c0b4f05634f91323fe97c41a09
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ProtoMan_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 751
+        width: 1
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17ecf19c6477d948a661ebb2af23e2b
+      internalID: 1612630676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 751
+        width: 4
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54439f1f1d027d84886ce4f1ebfc9454
+      internalID: 973923206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_2
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 751
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcdf2a151c63bc54bb9508020d88b4f4
+      internalID: 1906416573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_3
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 751
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46dd2935b753634582a068eb33e0970
+      internalID: -1431178867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_4
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 751
+        width: 44
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c456bf1ff2b7f14eab4052bafafa514
+      internalID: -1282722130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_5
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 751
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde89d2da343bf54a8fab19684dda6b3
+      internalID: 719866572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_6
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 751
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9239c79aef76f439278f0265366857
+      internalID: 59164702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_7
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 751
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa0bbfa13d998548b6a91261b0d5af4
+      internalID: -1594644507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_8
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 751
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9edb789130720428ba64a97f5e3f16
+      internalID: 1873104845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_9
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 751
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71818ea6d3ead742b896507a26b4c0e
+      internalID: -831705232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_10
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 751
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fedb538267fdaa49928049b1842413f
+      internalID: -191278314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_11
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 698
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043cc535ce21bfe4996df8164e317efc
+      internalID: 511045253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_12
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 698
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae11d70f3a8e45499a38bf3315937e3
+      internalID: 1259124461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_13
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 698
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6a66bd64e065c40bd3430af8f783e6
+      internalID: -1956636081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_14
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 698
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36172e89749ece941bd3c6d934ee24d2
+      internalID: 1818391166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_15
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 698
+        width: 48
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473462c2bb7abf442a7f59fffec5d9aa
+      internalID: 561203282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_16
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 698
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e177731be2e2ffb4bacc29ed11c8390d
+      internalID: -145575594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_17
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 698
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b420bdb632d815d4d963110ddc26289d
+      internalID: -198830560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_18
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 698
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6e7aea94ac16346a3ae095db2497f5
+      internalID: 730225406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_19
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 698
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3370087ed8404a499b33a54c1f9e8b5
+      internalID: -1337324922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_20
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 698
+        width: 48
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c232fc4c9be4a49b795e78649a6bd4
+      internalID: 120062826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_21
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 698
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f2495fcde5d2248ac0710c74bab275
+      internalID: -1961530136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_22
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 627
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbd7d2f2853cbc4ab4f8c5b489c9883
+      internalID: 1813790704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_23
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 627
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6aaeccfb511b04dbcf48012411f1d6
+      internalID: 119261881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_24
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 627
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4e9c5a49a18f34c93ec13547a2f24b
+      internalID: 1675393760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_25
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 627
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5049266ac0b22644a85bc055eb8216c5
+      internalID: -594589383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_26
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 627
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c6a590522be854aaa5b7ee227f51e5
+      internalID: 1780736524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_27
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 627
+        width: 57
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1de5d1a4e30a24faad6677aded8f3f
+      internalID: 1935817499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_28
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 627
+        width: 63
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592be68a6a21a994b916b353b164df8e
+      internalID: -71883509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_29
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 627
+        width: 53
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbd64b6de55fbf4f8f602e2e4fa4ce9
+      internalID: 1890331887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_30
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 627
+        width: 53
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9124f59eae9494e8fb192cf2a1b9d8
+      internalID: -794134913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_31
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 627
+        width: 53
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82a362baea1efb469ae182162c2ac2b
+      internalID: 344961665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_32
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 570
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71984b6662a53a4aa9b177a7d76664b
+      internalID: -587047873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_33
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 570
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ad462777cbe824097913b32c0fe70a
+      internalID: -97450935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_34
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 570
+        width: 53
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a23b7117ffbe444991fca0cf01cb6ca
+      internalID: 712111139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_35
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 570
+        width: 55
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaaba625cb7e25748822da0d300a5302
+      internalID: -1587506251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_36
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 570
+        width: 53
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186583806aff21847bb46a9879e209d1
+      internalID: -95337937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_37
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 570
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9338d5fb407fd045a463eba60004b07
+      internalID: -1091276885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_38
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 570
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ce922fce82b0e4d831bc66c1742928
+      internalID: -224203881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_39
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 570
+        width: 54
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5e29603853bc54d815da79d2fbcef7
+      internalID: 1703765415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_40
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 570
+        width: 58
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e64a50044b5a9748b2ae5392fea6bd8
+      internalID: 1115226254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_41
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 570
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483c270394aba0f4daafdfebb2cc66e4
+      internalID: -1261463217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_42
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 518
+        width: 48
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4812a246eb186b4985f879fb6384d42
+      internalID: -1438303276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_43
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 518
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824769aae3fe8944c880db9d00e32604
+      internalID: -1299460214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_44
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 518
+        width: 75
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6e53d99a22c7c4394638141021a146
+      internalID: -268560783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_45
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 518
+        width: 71
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1124415c064711444bbcf4eaddf63126
+      internalID: 587479316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_46
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 518
+        width: 71
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c4fe2aa81e4d54594379e70e0642b7
+      internalID: -365206845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_47
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 518
+        width: 44
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00460033ba4ad9f41976df289cf1a600
+      internalID: -61197457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_48
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 465
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745e67a1812e0ea4699b2a2390db0d86
+      internalID: 2060178164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_49
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 465
+        width: 54
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f520a5e6679bc458a0ad8cef390146
+      internalID: -1894213600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_50
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 465
+        width: 57
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67857b131737d944280042c8b2d2739b
+      internalID: 1210822630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_51
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 465
+        width: 63
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fd06ae3a6b9a44182e5e071ed0479b
+      internalID: 1860217088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_52
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 465
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbe7655733ad21488ceeb1aee04a544
+      internalID: -324909901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_53
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 465
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8daabfdb77b69a43baf50e366d83c41
+      internalID: -21919112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_54
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 465
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49496d14fd480d64e95f82aff21cd071
+      internalID: 302059042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_55
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 403
+        width: 51
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d186ed5d66490bb4fb2b4d475fecd496
+      internalID: -1978329399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_56
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 403
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99279dfb7c008b24ebd44d0d6e2fb9fe
+      internalID: -1081782734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_57
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 403
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca48e18a69d84e49ac7c78625a87824
+      internalID: 909332986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_58
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 403
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238d8f1cec1646d4b918176f07f200ed
+      internalID: -1569009197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_59
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 403
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2294236b0584a04c86e6920f2d4afb8
+      internalID: 1031114654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_60
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 403
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bdef41dc6dad24ea5a919c532cc109
+      internalID: 871473987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_61
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 403
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526bd6cb33965204590101538a19ba3d
+      internalID: -528406373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_62
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 403
+        width: 51
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedd2b1dfb641f148bcb13af45cc92b1
+      internalID: 1756831239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_63
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 403
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2131face36b282c45818eab405fef691
+      internalID: -467492000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_64
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 403
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a1054d75edd1e49b84404933509e35
+      internalID: -220974037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_65
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 350
+        width: 48
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6850d9e5e1985847b53454e943956d2
+      internalID: 1424569385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_66
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 350
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717ebb2a9faa8f549a9fc104b772dedd
+      internalID: 857815644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_67
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 350
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88bb936626eba1c4598e7593c024c17c
+      internalID: -1510406873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_68
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 350
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368f8c9c9cc882f44ae070356652ac95
+      internalID: -471713972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_69
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 350
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6cd1670d5c8d3e41ace2626a1ed4b00
+      internalID: 1216993008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_70
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 350
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37150ebd3cba79b44b146c4535a6f55d
+      internalID: -1448392669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_71
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 350
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07d35ce92340544a97160706ee5a986
+      internalID: 545383255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_72
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 350
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd9bb80af727dd439a965f7a491267d
+      internalID: 180899313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_73
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 296
+        width: 66
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27effb0df80a1404892f08270a481b7f
+      internalID: -926611227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_74
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 296
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff95308aa157d6240b9ba13b3f896dfe
+      internalID: 816797266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_75
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 296
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94380aeb5c8e60f4fa2558824724c5bd
+      internalID: -577980697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_76
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 296
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08956005db8550847821d4bf38dc7c3a
+      internalID: 641303557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_77
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 296
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f67a728c7e2d6944a11eec4638d2513
+      internalID: -567214151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_78
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 296
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79740d8b0ff1e614eae5919a67588ae8
+      internalID: 1211109259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_79
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 296
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc608aa956fd474ea8c117bdd688f66
+      internalID: -680628916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_80
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 296
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba848ac3b24f4cd4090591f08f3a8018
+      internalID: 1897220780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_81
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 296
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547983746a9eb1e4d882b17322973513
+      internalID: -777578788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_82
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 235
+        width: 58
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9480782ff382d4f92d54b53a548f9b
+      internalID: -395725142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_83
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 235
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c86697bef13f946a02884949697995
+      internalID: -1522972258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_84
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 235
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1e45b87c4578944b1af417378edd06
+      internalID: -2029792391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_85
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 235
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5bd35e27f781f44a699b23d9c335af
+      internalID: 1588159281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_86
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 235
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2d790079336a44ca01bf0bfb250cb6
+      internalID: -506944310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_87
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 235
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137fdab4b351de04ea449ce81a558125
+      internalID: -433984639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_88
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 235
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e02edb5fb3996f45aad41982d11843c
+      internalID: -647160752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_89
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 235
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93441f7e629795048adcb17172fe9483
+      internalID: -1866718044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_90
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 235
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d582dc6cd96d24fa2f2f81fb76a8ba
+      internalID: 2101727929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_91
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 235
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d5b1610efc40f49a9cadfc953f295f
+      internalID: -397619363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_92
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 235
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2635fe005a2183c46a598252c2f45ebd
+      internalID: 1554338525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_93
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 235
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213a397f2c39ab845b65c8a06c21d1b7
+      internalID: -1265369889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_94
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 182
+        width: 63
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274b287a68b3ae04ab9bfb124971e017
+      internalID: 768433338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_95
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 182
+        width: 65
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ff40d4bc0fcae45af25bee08d8d59e
+      internalID: -1701772100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_96
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 182
+        width: 66
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb08877b5edcedb46838c82ada987847
+      internalID: 1589769754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_97
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 182
+        width: 65
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25df6eced9095040b077c675a3d6d20
+      internalID: 1533821964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_98
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 182
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f8ab60ea464d844a5f3f971d991ae5
+      internalID: -1881716686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_99
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 124
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf687e4758fe0a47a2f84eefa78f4a6
+      internalID: 1337091757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_100
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 124
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6cb6bdf8e3ff904db0cf81cdfb7764b
+      internalID: -1846731209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_101
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 124
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761ce0779f861d247a8c613ca546b6df
+      internalID: -576891389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_102
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 124
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879943ea8ccbefe48a3afd775def1e28
+      internalID: 2104272397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_103
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 124
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681a150a6f72bb645bd88642e940cd2c
+      internalID: -235780713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_104
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 124
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8fefed3615b2449b0b914b8fad3952
+      internalID: 1907436493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_105
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 124
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa3589a38fed184e8504e189ac6d961
+      internalID: 68824174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_106
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 124
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afee8786a4ce9fe45bbd340600b02c94
+      internalID: -1930072887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_107
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 124
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e693e951acfb9a54c9e0ae6ce0f5c2f0
+      internalID: -345856642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_108
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 124
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed85ac17ad6d1bd48b0e285794f88c6f
+      internalID: -1412900339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_109
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 65
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660c3373b41b493419df60d8e6ddeca4
+      internalID: -288753378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_110
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 65
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2947076f550c943ac3d2066cd3ad69
+      internalID: -845258581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_111
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 65
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4210adfec36d9f41a5912051d357845
+      internalID: -1915208376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_112
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 65
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726734a1f1444744a95b23112e0f1281
+      internalID: 1052635348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_113
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 65
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ed0f7fc80df284b96dfc7e09a96198
+      internalID: -2121822628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_114
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 65
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4dd8d62ce83b3d4b954d156dbb2d6d0
+      internalID: -811641004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_115
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 65
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94e13a091d213f438de663df7bb9007
+      internalID: 1406758770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_116
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 65
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6b4e7906dd99741bc1aebe39dc3363
+      internalID: -640900369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_117
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 65
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91c723292fdef74eb91d5e7958e8b0e
+      internalID: -1903615916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_118
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 65
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c234075d49e47614e91ad5003f1062ea
+      internalID: -2100733971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_119
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 65
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba57f5793082d1543895eb7c45ea17dc
+      internalID: -1314988697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_120
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 65
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7dfb5ce6de2ac488d80b60ec8a4802
+      internalID: -1730525759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtoMan_121
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 9
+        width: 244
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63fb00eace4b17c4eb970496d9aa1be9
+      internalID: 9715481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ProtoMan_0: 1612630676
+      ProtoMan_1: 973923206
+      ProtoMan_10: -191278314
+      ProtoMan_100: -1846731209
+      ProtoMan_101: -576891389
+      ProtoMan_102: 2104272397
+      ProtoMan_103: -235780713
+      ProtoMan_104: 1907436493
+      ProtoMan_105: 68824174
+      ProtoMan_106: -1930072887
+      ProtoMan_107: -345856642
+      ProtoMan_108: -1412900339
+      ProtoMan_109: -288753378
+      ProtoMan_11: 511045253
+      ProtoMan_110: -845258581
+      ProtoMan_111: -1915208376
+      ProtoMan_112: 1052635348
+      ProtoMan_113: -2121822628
+      ProtoMan_114: -811641004
+      ProtoMan_115: 1406758770
+      ProtoMan_116: -640900369
+      ProtoMan_117: -1903615916
+      ProtoMan_118: -2100733971
+      ProtoMan_119: -1314988697
+      ProtoMan_12: 1259124461
+      ProtoMan_120: -1730525759
+      ProtoMan_121: 9715481
+      ProtoMan_13: -1956636081
+      ProtoMan_14: 1818391166
+      ProtoMan_15: 561203282
+      ProtoMan_16: -145575594
+      ProtoMan_17: -198830560
+      ProtoMan_18: 730225406
+      ProtoMan_19: -1337324922
+      ProtoMan_2: 1906416573
+      ProtoMan_20: 120062826
+      ProtoMan_21: -1961530136
+      ProtoMan_22: 1813790704
+      ProtoMan_23: 119261881
+      ProtoMan_24: 1675393760
+      ProtoMan_25: -594589383
+      ProtoMan_26: 1780736524
+      ProtoMan_27: 1935817499
+      ProtoMan_28: -71883509
+      ProtoMan_29: 1890331887
+      ProtoMan_3: -1431178867
+      ProtoMan_30: -794134913
+      ProtoMan_31: 344961665
+      ProtoMan_32: -587047873
+      ProtoMan_33: -97450935
+      ProtoMan_34: 712111139
+      ProtoMan_35: -1587506251
+      ProtoMan_36: -95337937
+      ProtoMan_37: -1091276885
+      ProtoMan_38: -224203881
+      ProtoMan_39: 1703765415
+      ProtoMan_4: -1282722130
+      ProtoMan_40: 1115226254
+      ProtoMan_41: -1261463217
+      ProtoMan_42: -1438303276
+      ProtoMan_43: -1299460214
+      ProtoMan_44: -268560783
+      ProtoMan_45: 587479316
+      ProtoMan_46: -365206845
+      ProtoMan_47: -61197457
+      ProtoMan_48: 2060178164
+      ProtoMan_49: -1894213600
+      ProtoMan_5: 719866572
+      ProtoMan_50: 1210822630
+      ProtoMan_51: 1860217088
+      ProtoMan_52: -324909901
+      ProtoMan_53: -21919112
+      ProtoMan_54: 302059042
+      ProtoMan_55: -1978329399
+      ProtoMan_56: -1081782734
+      ProtoMan_57: 909332986
+      ProtoMan_58: -1569009197
+      ProtoMan_59: 1031114654
+      ProtoMan_6: 59164702
+      ProtoMan_60: 871473987
+      ProtoMan_61: -528406373
+      ProtoMan_62: 1756831239
+      ProtoMan_63: -467492000
+      ProtoMan_64: -220974037
+      ProtoMan_65: 1424569385
+      ProtoMan_66: 857815644
+      ProtoMan_67: -1510406873
+      ProtoMan_68: -471713972
+      ProtoMan_69: 1216993008
+      ProtoMan_7: -1594644507
+      ProtoMan_70: -1448392669
+      ProtoMan_71: 545383255
+      ProtoMan_72: 180899313
+      ProtoMan_73: -926611227
+      ProtoMan_74: 816797266
+      ProtoMan_75: -577980697
+      ProtoMan_76: 641303557
+      ProtoMan_77: -567214151
+      ProtoMan_78: 1211109259
+      ProtoMan_79: -680628916
+      ProtoMan_8: 1873104845
+      ProtoMan_80: 1897220780
+      ProtoMan_81: -777578788
+      ProtoMan_82: -395725142
+      ProtoMan_83: -1522972258
+      ProtoMan_84: -2029792391
+      ProtoMan_85: 1588159281
+      ProtoMan_86: -506944310
+      ProtoMan_87: -433984639
+      ProtoMan_88: -647160752
+      ProtoMan_89: -1866718044
+      ProtoMan_9: -831705232
+      ProtoMan_90: 2101727929
+      ProtoMan_91: -397619363
+      ProtoMan_92: 1554338525
+      ProtoMan_93: -1265369889
+      ProtoMan_94: 768433338
+      ProtoMan_95: -1701772100
+      ProtoMan_96: 1589769754
+      ProtoMan_97: 1533821964
+      ProtoMan_98: -1881716686
+      ProtoMan_99: 1337091757
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

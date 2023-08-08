@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Item
+  - spawnItem
+  - WeaponManager
+  - Deslizadores
+  - Fondo2
+  - Background
+  - Fondo3
+  - Shadow
+  - Escaleras
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Background
+  - Foreground
+  - Escaleras
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Sombras
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3004598127
+    locked: 0
+  - name: Foreground
+    uniqueID: 3432841195
+    locked: 0
+  - name: Player
+    uniqueID: 3993693129
+    locked: 0
+  - name: UI
+    uniqueID: 2328095749
+    locked: 0
