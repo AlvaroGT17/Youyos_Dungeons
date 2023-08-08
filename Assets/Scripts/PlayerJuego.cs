@@ -138,13 +138,13 @@ public class PlayerJuego : MonoBehaviour
         }
 
 
-        // La animacion de salto tiene que ir en el update por que si se hace en el metodo no comprueva en tiempo real cual es la animacion que toca en el caso de subir o vajar.
+        // La animacion de salto tiene que ir en el update por que si se hace en el metodo no comprueva en tiempo real cual es la animacion que toca en el caso de subir o bajar.
 
         if (velocidadY > 0 && !controlSuelo.estaEnSuelo && !controlEscaleras.estaEnEscalera)
         {
             estadoActual = Estado.Jump;
         }
-        else if (velocidadY < 0 && !controlSuelo.estaEnSuelo && !controlEscaleras.estaEnEscalera)
+        else if (velocidadY < 0 && !controlSuelo.estaEnSuelo && !controlPared.estaEnPared)
         {
             estadoActual = Estado.Caida;
         }
@@ -156,7 +156,6 @@ public class PlayerJuego : MonoBehaviour
         if (sePuedeMover && !saltandoDePared)
         {
             Movimiento(movimientoHorizontal * Time.fixedDeltaTime);
-
         }
 
         Escaleras();
@@ -246,6 +245,7 @@ public class PlayerJuego : MonoBehaviour
 
     private void DeslizarseEnPared()
     {
+        Debug.Log("Esta deslizandose");
         estadoActual = Estado.DeslizandoPared;
         animator.SetFloat("EstadoActual", (int)estadoActual);
 
