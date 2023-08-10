@@ -22,7 +22,7 @@ public class ControlSuelo : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Background"))
+        if (other.CompareTag("Background") || other.CompareTag("PlataformasAtravesables"))
         {
             estaEnSuelo = false; // Establecemos la variable como falsa al salir del suelo.
         }

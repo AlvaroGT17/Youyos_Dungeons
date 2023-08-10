@@ -11,6 +11,7 @@ public class PlayerJuego : MonoBehaviour
     public ControlSuelo controlSuelo;
     private ControlPared controlPared;
     private ControlEscaleras controlEscaleras;
+    private PlataformasAtravesables plataformasAtravesables;
     private Animator animator;
 
 
@@ -38,7 +39,7 @@ public class PlayerJuego : MonoBehaviour
     [SerializeField] private float velocidadMovimiento;
     [Range((float)0, 3)][SerializeField] private float resvalar;
     [SerializeField] private float inputX;
-    [SerializeField] private float inputY;
+    [SerializeField] public float inputY;
     private Vector3 velocidad = Vector3.zero;
     private float movimientoHorizontal = 0f;
     private bool mirarDerecha = true;
@@ -71,7 +72,7 @@ public class PlayerJuego : MonoBehaviour
 
     [Header("Escaleras")]
     [SerializeField] private float velocidadEnEscalera;
-    [SerializeField] private bool estaEnEscalera;
+    [SerializeField] public bool estaEnEscalera;
     [SerializeField] private bool escalando;
     private Vector2 posicionSaltoEscalera;
 
@@ -84,6 +85,7 @@ public class PlayerJuego : MonoBehaviour
         controlSuelo = GameObject.Find("controlSuelo").GetComponent<ControlSuelo>();
         controlPared = GameObject.Find("controlPared").GetComponent<ControlPared>();
         controlEscaleras = GameObject.Find("controlEscalera").GetComponent<ControlEscaleras>();
+        plataformasAtravesables = GameObject.Find("PlataformasAtravesables").GetComponent<PlataformasAtravesables>();
         gravedadInicial = rb.gravityScale;
     }
 

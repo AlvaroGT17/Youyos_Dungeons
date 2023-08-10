@@ -3,12 +3,12 @@ using UnityEngine;
 public class ControlEscaleras : MonoBehaviour
 {
     [SerializeField] public bool estaEnEscalera;
-    private PlayerJuego PlayerJuegoEscalera;
+    private PlayerJuego playerJuegoEscalera;
     public GameObject escaleraActiva;
 
     private void Start()
     {
-        PlayerJuegoEscalera = GameObject.Find("PlayerTesteo").GetComponent<PlayerJuego>();
+        playerJuegoEscalera = GameObject.Find("PlayerTesteo").GetComponent<PlayerJuego>();
         estaEnEscalera = false; // Establecemos el valor inicial como falso.
     }
 

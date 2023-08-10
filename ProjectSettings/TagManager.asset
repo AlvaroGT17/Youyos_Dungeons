@@ -13,6 +13,7 @@ TagManager:
   - Fondo3
   - Shadow
   - Escaleras
+  - PlataformasAtravesables
   layers:
   - Default
   - TransparentFX
@@ -22,8 +23,8 @@ TagManager:
   - UI
   - Background
   - Foreground
+  - PlataformasAtravesables
   - Escaleras
-  - 
   - 
   - 
   - 
@@ -55,6 +56,9 @@ TagManager:
     locked: 0
   - name: Foreground
     uniqueID: 3432841195
+    locked: 0
+  - name: Escaleras
+    uniqueID: 2997630749
     locked: 0
   - name: Player
     uniqueID: 3993693129
