@@ -7,6 +7,7 @@ public class PlayerJuego : MonoBehaviour
     //DECLARACION DE VARIABLES
 
     [Header("Interacion con Unity")]
+    public static PlayerJuego playerJuego;
     private Rigidbody2D rb;
     public ControlSuelo controlSuelo;
     private ControlPared controlPared;
@@ -78,6 +79,11 @@ public class PlayerJuego : MonoBehaviour
 
 
     // EJECUCION DEL JUEGO
+
+    private void Awake()
+    {
+        playerJuego = this;
+    }
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();

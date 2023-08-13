@@ -24,7 +24,6 @@ public class PlataformasAtravesables : MonoBehaviour
         ccPlataforma = GetComponent<BoxCollider2D>();
         ccPlataformaBounds = ccPlataforma.bounds;
         topPlataforma = (int)ccPlataformaBounds.center.y + (int)ccPlataformaBounds.extents.y;
-        escaleraDetectada = controlEscaleras.estaEnEscalera;
         inputY = playerJuego.inputY;
     }
 
@@ -46,8 +45,9 @@ public class PlataformasAtravesables : MonoBehaviour
             gameObject.layer = LayerMask.NameToLayer("PlataformasAtravesables");
         }
 
-        if (controlEscaleras.estaEnEscalera && playerJuego.inputY < 0)
+        if (ControlEscaleras.controlEscaleras.estaEnEscalera && PlayerJuego.playerJuego.inputY < 0)
         {
+            Debug.Log("Puede Bajar por la escalera");
             ccPlataforma.isTrigger = true;
             gameObject.tag = "PlataformasAtravesables";
             gameObject.layer = LayerMask.NameToLayer("PlataformasAtravesables");

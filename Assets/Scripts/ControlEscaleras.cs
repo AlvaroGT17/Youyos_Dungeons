@@ -2,10 +2,15 @@ using UnityEngine;
 
 public class ControlEscaleras : MonoBehaviour
 {
+    public static ControlEscaleras controlEscaleras;
     [SerializeField] public bool estaEnEscalera;
     private PlayerJuego playerJuegoEscalera;
     public GameObject escaleraActiva;
 
+    private void Awake()
+    {
+        controlEscaleras = this;
+    }
     private void Start()
     {
         playerJuegoEscalera = GameObject.Find("PlayerTesteo").GetComponent<PlayerJuego>();
