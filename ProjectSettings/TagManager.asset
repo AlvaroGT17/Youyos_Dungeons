@@ -14,6 +14,8 @@ TagManager:
   - Shadow
   - Escaleras
   - PlataformasAtravesables
+  - Balas
+  - Enemigos
   layers:
   - Default
   - TransparentFX
@@ -25,13 +27,13 @@ TagManager:
   - Foreground
   - PlataformasAtravesables
   - Escaleras
-  - 
+  - Enemigos
   - 
   - 
   - 
   - Sombras
   - Player
-  - 
+  - Balas
   - 
   - 
   - 
@@ -65,4 +67,10 @@ TagManager:
     locked: 0
   - name: UI
     uniqueID: 2328095749
+    locked: 0
+  - name: Balas
+    uniqueID: 2511800533
+    locked: 0
+  - name: Enemigos
+    uniqueID: 3749515591
     locked: 0

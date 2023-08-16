@@ -13,7 +13,7 @@ public class PlayerJuego : MonoBehaviour
     private ControlPared controlPared;
     private ControlEscaleras controlEscaleras;
     private PlataformasAtravesables plataformasAtravesables;
-    private Animator animator;
+    public Animator animator;
 
 
     public enum Estado
@@ -26,8 +26,8 @@ public class PlayerJuego : MonoBehaviour
         DeslizarseAire,
         DeslizandoPared,
         DispararIdle,
-        DispararCorriendo,
         DispararSaltando,
+        DispararCorriendo,
         EscaleraAscender,
         EscaleraEstatico,
         EscaleraDescender,
@@ -39,7 +39,7 @@ public class PlayerJuego : MonoBehaviour
     [Header("Movimiento")]
     [SerializeField] private float velocidadMovimiento;
     [Range((float)0, 3)][SerializeField] private float resvalar;
-    [SerializeField] private float inputX;
+    [SerializeField] public float inputX;
     [SerializeField] public float inputY;
     private Vector3 velocidad = Vector3.zero;
     private float movimientoHorizontal = 0f;
@@ -74,9 +74,16 @@ public class PlayerJuego : MonoBehaviour
     [Header("Escaleras")]
     [SerializeField] private float velocidadEnEscalera;
     [SerializeField] public bool estaEnEscalera;
-    [SerializeField] private bool escalando;
+    [SerializeField] public bool escalando;
     private Vector2 posicionSaltoEscalera;
 
+    [Header("Disparo")]
+    public GameObject[] bullet;
+    private bool shooting;
+    private float shoot_time;
+    public GameObject point;
+    public float cargadisparo;
+    public int etapaDeCarga;
 
     // EJECUCION DEL JUEGO
 
@@ -140,7 +147,7 @@ public class PlayerJuego : MonoBehaviour
                 Saltar();
             }
         }
-        else if (Input.GetKeyDown(KeyCode.X) || Input.GetKeyDown(KeyCode.Joystick1Button1) && puedeDeslizarseEnX)
+        else if (Input.GetKeyDown(KeyCode.X) || Input.GetKeyDown(KeyCode.Joystick1Button1) && puedeDeslizarseEnX && !controlEscaleras.estaEnEscalera)
         {
             StartCoroutine(Deslizarse());
         }
@@ -157,6 +164,9 @@ public class PlayerJuego : MonoBehaviour
             estadoActual = Estado.Caida;
         }
         animator.SetFloat("EstadoActual", (int)estadoActual);
+
+        //Disparar();
+        CargaDisparo();
     }
 
     private void FixedUpdate()
@@ -348,8 +358,92 @@ public class PlayerJuego : MonoBehaviour
     private void GirarOrientacion()
     {
         mirarDerecha = !mirarDerecha;
-        Vector3 escala = transform.localScale;
-        escala.x *= -1;
-        transform.localScale = escala;
+        transform.eulerAngles = new Vector3(0, transform.eulerAngles.y + (-180), 0);
+    }
+
+    private void Disparar()
+    {
+        if (Input.GetKeyDown(KeyCode.V))
+        {
+            // shoot_time = 0.01f;
+            GameObject obj = Instantiate(bullet[0], point.transform.position, transform.rotation) as GameObject;
+
+            if (!shooting)
+            {
+                shooting = true;
+            }
+        }
+
+        if (shooting)
+        {
+            shoot_time += 1 * Time.deltaTime;
+            if (inputX == 0 && Input.GetKeyDown(KeyCode.V))
+            {
+                estadoActual = Estado.DispararIdle;
+            }
+            else if (inputY == 0)
+            {
+                estadoActual = Estado.DispararIdle;
+            }
+            animator.SetFloat("EstadoActual", (int)estadoActual);
+        }
+        shooting = false;
+    }
+
+    private void CargaDisparo()
+    {
+        if (Input.GetKey(KeyCode.V))
+        {
+            cargadisparo += 1 * Time.deltaTime;
+        }
+
+        if (cargadisparo >= 1)
+        {
+            cargadisparo = 0;
+            if (etapaDeCarga <= 3)
+            {
+                etapaDeCarga += 1;
+            }
+        }
+
+        if (Input.GetKeyUp(KeyCode.V))
+        {
+            switch (cargadisparo)
+            {
+                case 1:
+                    GameObject obj1 = Instantiate(bullet[1], point.transform.position, transform.rotation) as GameObject;
+                    if (!shooting)
+                    {
+                        shooting = true;
+                    }
+                    break;
+
+                case 2:
+                    GameObject obj2 = Instantiate(bullet[2], point.transform.position, transform.rotation) as GameObject;
+                    if (!shooting)
+                    {
+                        shooting = true;
+                    }
+                    break;
+
+                case 3:
+                    GameObject obj3 = Instantiate(bullet[3], point.transform.position, transform.rotation) as GameObject;
+                    if (!shooting)
+                    {
+                        shooting = true;
+                    }
+                    break;
+
+                case 4:
+                    GameObject obj4 = Instantiate(bullet[4], point.transform.position, transform.rotation) as GameObject;
+                    if (!shooting)
+                    {
+                        shooting = true;
+                    }
+                    break;
+            }
+            cargadisparo = 0;
+            etapaDeCarga = 0;
+        }
     }
 }
