@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingOrder: 1
   m_Sprite: {fileID: 289862078, guid: 416b6dbdcc6028544bc4449b3cb5b879, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 3, y: 2}
@@ -119,9 +119,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.637649, y: 0}
+  m_Offset: {x: -0.5343492, y: 0}
   serializedVersion: 2
-  m_Radius: 0.862351
+  m_Radius: 0.9895952
 --- !u!114 &8482109360029718518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131,11 +131,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6529683227463423411}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: daffc6f6c3d0afb4d8bbf742bdbcc563, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b045ece96389d34bb52396c4c35732b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidadDeBala: 20
-  damage: 0
+  speed: 35
 --- !u!95 &1223694793530604451
 Animator:
   serializedVersion: 5
