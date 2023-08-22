@@ -9,11 +9,11 @@ public class PlayerJuego : MonoBehaviour
     [Header("Interacion con Unity")]
     public static PlayerJuego playerJuego;
     private Rigidbody2D rb;
-    public ControlSuelo controlSuelo;
+    private ControlSuelo controlSuelo;
     private ControlPared controlPared;
     private ControlEscaleras controlEscaleras;
     private PlataformasAtravesables plataformasAtravesables;
-    public Animator animator;
+    private Animator animator;
 
 
     public enum Estado

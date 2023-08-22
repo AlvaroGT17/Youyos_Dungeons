@@ -8313,8 +8313,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 497181789230d594bbec0c1988557394, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlSuelo: {fileID: 1010442620}
-  animator: {fileID: 0}
   estadoActual: 0
   velocidadMovimiento: 400
   resvalar: 0
@@ -8366,13 +8364,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controladorDisparo: {fileID: 1320718955}
-  balasPrefabricadas:
+  balaPrefab:
   - {fileID: 4345006466116977393, guid: 0a3eafdf12b7d594984acc8ba90072ad, type: 3}
   - {fileID: 4288634779066141515, guid: 77e8296857d6ece4a886fe35f3cc8c74, type: 3}
   - {fileID: 2105642218463110743, guid: 51400f486cfb88c4cbf6a58919d7dd7a, type: 3}
   - {fileID: 6529683227463423411, guid: c35b6eb613b0f214ea0adf7820ec96f2, type: 3}
   - {fileID: 7641789849856104882, guid: 9f29314001e802947ba5f9c83a53569d, type: 3}
   maximaCarga: 4
+  tiempoCarga: 0
   tiempoEntreDisparos: 0
 --- !u!4 &813836102 stripped
 Transform:

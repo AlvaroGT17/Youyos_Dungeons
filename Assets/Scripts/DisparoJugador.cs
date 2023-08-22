@@ -1,10 +1,12 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Pool;
 
 public class DisparoJugador : MonoBehaviour
 {
     [SerializeField] private Transform controladorDisparo;
-    [SerializeField] private DisparoJugador[] balaPrefab;
+    //[SerializeField] private DisparoJugador[] balaPrefab;
+    [SerializeField] private List<GameObject> balaPrefab = new List<GameObject>();
     [SerializeField] private float maximaCarga;
     [SerializeField] private float tiempoCarga;
     [SerializeField] private float tiempoEntreDisparos;
@@ -40,34 +42,9 @@ public class DisparoJugador : MonoBehaviour
         }
     }
 
-    private void OnEnable()
-    {
-        balasPool = new ObjectPool<DisparoJugador>(() =>
-        {
-            Bala bala = Instantiate(tipoBala, controladorDisparo.position, controladorDisparo.rotation);
-            bala.DesactivarBala(DesactivarBala);
-            return bala;
-        }, bala =>
-        {
-            bala.transform.position = controladorDisparo.position;
-            bala.gameObject.SetActive(true);
-        }, bala =>
-        {
-            bala.gameObject.SetActive(false);
-        }, bala =>
-        {
-            Destroy(bala.gameObject);
-        }, true, 10, 25);
-    }
-
     private void Disparar(int tiempoCarga)
     {
-        balasPool.Get();
-    }
-
-    private void DesactivarBalaPool(DisparoJugador bala)
-    {
-        balasPool.Release(bala);
+        Instantiate(balaPrefab[tiempoCarga], controladorDisparo.position, controladorDisparo.rotation);
     }
 
 }

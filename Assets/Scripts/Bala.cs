@@ -1,17 +1,20 @@
-using System;
-using System.Collections;
 using UnityEngine;
 
 public class Bala : MonoBehaviour
 {
     [SerializeField] private float speedBala;
     [SerializeField] private float tiempoDeVida;
-    private Action<Bala> desactivarAccion;
 
-    private void Start()
+    //private void Start()
+    //{
+    //    StartCoroutine(DesactivarTiempo(tiempoDeVida));
+    //}
+
+    private void OnEnable()
     {
-        StartCoroutine(DesactivarTiempo());
+        Invoke("DestruirBala", tiempoDeVida);
     }
+
     void Update()
     {
         transform.Translate(Vector3.left * speedBala * Time.deltaTime);
@@ -21,21 +24,20 @@ public class Bala : MonoBehaviour
     {
         if (other.CompareTag("Enemigos"))
         {
-            desactivarAccion(this);
+            Destroy(gameObject);
         }
     }
 
-    private IEnumerator DesactivarTiempo()
+    private void DestruirBala()
     {
-        yield return new WaitForSeconds(tiempoDeVida);
-        desactivarAccion(this);
+        Destroy(gameObject);
     }
 
-    public void DesactivarBala(Action<Bala> desactivarAccionParametro)
-    {
-        desactivarAccion = desactivarAccionParametro;
-        desactivarAccion(this);
-    }
-
-
+    //private IEnumerator DesactivarTiempo(float tiempoDeVida)
+    //{
+    //    Debug.Log("Inicio del tiempo de vida de la bala");
+    //    yield return new WaitForSeconds(tiempoDeVida);
+    //    Destroy(this, GameObject, tiempoDeVida);
+    //    Debug.Log("Bala destruida");
+    //}
 }

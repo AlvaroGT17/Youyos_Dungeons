@@ -135,7 +135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedBala: 25
-  tiempoDeVida: 4
+  tiempoDeVida: 2
 --- !u!95 &4017272921105318366
 Animator:
   serializedVersion: 5
